@@ -1,0 +1,31 @@
+<LinearLayout
+    android:background="#0F1923"
+    android:orientation="vertical">
+    
+    <!-- Status Card -->
+    <CardView
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="#1E2A3A">
+        <TextView
+            android:text="DISCONNECTED"
+            android:textColor="#FF5555"
+            android:textSize="18sp"/>
+    </CardView>
+
+    <!-- Big Connect Button -->
+    <Button
+        android:id="@+id/connectButton"
+        android:text="CONNECT"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Fake Server Location -->
+    <TextView
+        android:text="⚡ Server: Germany (Fake)"
+        android:textColor="#80FFFFFF"/>
+
+    <!-- Disclaimer (Small & Honest) -->
+    <TextView
+        android:text="⚠️ This app only changes DNS. Not a real VPN."
+        android:textColor="#80FF0000"/>
+</LinearLayout>
